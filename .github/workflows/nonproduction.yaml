@@ -26,6 +26,8 @@ jobs:
       - name: build site
         run: 
           npm ci
+      - name: build site
+        run: 
           npm run build
       - name: deploy files to bucket
         run: ls
